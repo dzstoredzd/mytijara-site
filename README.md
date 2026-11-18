@@ -1,19 +1,22 @@
 # MyTijara website
 
-Public website for MyTijara (تجارتي), served by GitHub Pages (not turned on yet).
+Public website for MyTijara (تجارتي), served by GitHub Pages at
+`https://yousoft.site/mytijara-site/`.
 
-Today it has only a "coming soon" home page in Arabic, French and English.
+Pages in Arabic, French and English. No trackers, no external fonts.
 
 ## Pages needed before the first Play release
 
-- [ ] `privacy.html`: privacy policy (Play requires its URL). Must cover the account
+- [x] `privacy.html`: privacy policy (Play requires its URL). Must cover the account
       (email, Google sign-in), the shop data stored on MyTijara's server for Cloud Sync,
       Google Play subscriptions, analytics and crash reports.
-- [ ] `terms.html`: terms of use, subscription renewal and cancellation (through Google Play).
-- [ ] `delete-account.html`: how to delete the account and the shop's data. Play requires
-      this URL for every app where users create an account.
-- [ ] `pricing/`: subscription plans (prices come from Google Play per country).
-- [ ] `windows/`: Windows download page, linking to `dzstoredzd/mytijara-releases`.
+- [x] `terms.html`: terms of use, subscription renewal and cancellation (through Google Play).
+- [x] `delete-account.html`: how to delete the account and the shop's data. Play requires
+      this URL for every app where users create an account. The app opens `#request`.
+- [x] `pricing/`: free plan and subscription plans (prices come from Google Play per
+      country, no prices printed). The app opens it as `pricing/?lang=ar|fr|en`.
+- [x] `windows/`: Windows page. Download says "coming soon" and links the releases page of
+      `dzstoredzd/mytijara-releases`; add the real installer link when it exists.
 
 Store Soft's pages (`dzstoredzd/store-soft-site`) and Doukkany's (`dzstoredzd/doukkany-site`)
 can be used as models, but their texts describe offline use and pay-once licences: rewrite,
